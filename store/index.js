@@ -37,25 +37,26 @@ export const mutations = {
     state.projects = projects
   },
   CURRENT_PROJECT: function (state, project) {
+    const headerImageUrl = project.header_image.url
+    const projectDescription = PrismicDOM.RichText.asHtml(project.project_description)
+    const projectMedia = project.project_media.url
     const projectName = PrismicDOM.RichText.asText(project.project_name)
-    const arr = project.body
-
-    // Slices
-    const text = arr.find(slice => slice.slice_type === 'text')
-    const imgCap = arr.find(slice => slice.slice_type === 'image_with_caption')
-
-    // Text fields
-    const projectText = PrismicDOM.RichText.asHtml(text.primary.text)
-
-    // Image with caption fields
-    const featuredMedia = imgCap.primary.image.url
-    const caption = PrismicDOM.RichText.asText(imgCap.primary.caption)
+    const projectType = PrismicDOM.RichText.asText(project.project_type)
+    const projectSummary = PrismicDOM.RichText.asText(project.summary)
+    const projectViewCode = project.view_code.url
+    const projectViewProject = project.view_project.url
+    const projectEmbedMedia = project.embed_media.embed_url
 
     const formattedProject = {
+      headerImageUrl,
+      projectDescription,
+      projectMedia,
       projectName,
-      projectText,
-      featuredMedia,
-      caption
+      projectType,
+      projectSummary,
+      projectViewCode,
+      projectViewProject,
+      projectEmbedMedia
     }
 
     state.currentProject = formattedProject

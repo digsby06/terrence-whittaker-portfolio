@@ -38,6 +38,7 @@ import DigitalLife from '~/assets/digitallife.jpg'
 import ConversionFunnel from '~/assets/conversion-funnel.jpg'
 import MovementBank from '~/assets/movementbank.jpg'
 import MYM from '~/assets/mym.jpg'
+import Tutor from '~/assets/tutor.jpg'
 
 export default {
   name: 'section-projects',
@@ -76,6 +77,12 @@ export default {
           type: 'App Development',
           pageUrl: '/projects/shine-moments-att',
           imageUrl: ShineMoments
+        },
+        {
+          title: 'Tutor2You LLC',
+          type: 'Website',
+          pageUrl: '/projects/tutor2you',
+          imageUrl: Tutor
         }
       ]
     }

@@ -1,4 +1,5 @@
 @import "blog.scss";
+@import "project.scss";
 
 .page-enter-active {
   animation: acrossIn .45s ease-out both;

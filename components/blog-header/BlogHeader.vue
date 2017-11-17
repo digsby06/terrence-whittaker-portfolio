@@ -3,8 +3,8 @@
     <multi-navigation-bar/>
     <div class="mw9 center pa4 pt3-ns ph7-l">
       <div class="pb3">
-        <h1 class="f1 lh-title avenir tc pb0 mb0">{{headline}}</h1>
-        <h1 class="f2 fw3 lh-subtitle avenir tc mt0 pt0">{{subHead}}</h1>
+        <h1 class="f1-ns f2-m f3 lh-title avenir tc pb0 mb0">{{headline}}</h1>
+        <h1 class="f2-ns f3-m f4 fw3 lh-subtitle avenir tc mt0 pt0">{{subHead}}</h1>
       </div>
     </div>
   </header>
