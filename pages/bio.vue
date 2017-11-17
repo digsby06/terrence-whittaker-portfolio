@@ -7,7 +7,7 @@
           :page="page">
         </page-header>
 
-        <section class="pa5 ph7-l georgia mw9-l center">
+        <section class="pa4 ph7-l avenir mw9-l center">
           <h1 class="lh-title pb3"><b>Hey, it's Terrence.</b></h1>
 
           <p class="lh-copy pb3">So maybe you’ve clicked around my website, gazed at <a class="link dim black" href="/projects"><b>my projects</b></a> and learned a bit about what I can do. Here’s the part where I tell you a bit about myself.</p>

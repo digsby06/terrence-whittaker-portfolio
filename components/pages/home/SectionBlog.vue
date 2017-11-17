@@ -25,7 +25,7 @@
       </article>
   </div>
 
-  <div class="pa3 pa4-ns mw8 tc center">
+  <div v-if="this.blogs.length > 1" class="pa3 pa4-ns mw8 tc center">
       <nuxt-link class="f6 grow no-underline br-pill ph4 pv2 mb2 dib white bg-black" to="/blog">View All</nuxt-link>
   </div>
 

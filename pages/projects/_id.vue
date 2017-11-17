@@ -39,7 +39,7 @@
                   <img class="db center mt4 mt5-ns" :src="currentProject.projectMedia">
 
                   <div class="w-100 center mt4 tc">
-                    <a class="f6 link dim br-pill ph3 pv2 mb2 dib white bg-black" href="/projects">Go Back</a>
+                    <nuxt-link class="f6 grow no-underline br-pill ph4 pv2 mb2 dib white bg-black" to="/projects">Back to Projects</nuxt-link>
                   </div>
                 </div>
 

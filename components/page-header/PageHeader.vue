@@ -3,8 +3,8 @@
     <multi-navigation-bar bg="gold"/>
     <div class="mw9 center pa4 pt5-ns ph7-l">
       <div class="pb3">
-        <h1 class="f2 fw1 georgia i tc">"{{quote}}"</h1>
-        <h1 class="f2 fw1 georgia i tr">- {{artist}}</h1>
+        <h1 class="f3 f2-ns fw1 georgia i tc">"{{quote}}"</h1>
+        <h1 class="f3 f2-ns fw1 georgia i tr">- {{artist}}</h1>
       </div>
 
       <h1 class="f1 f1-m lh-title">

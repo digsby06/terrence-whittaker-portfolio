@@ -178,7 +178,7 @@ $bar-spacing: 10px;
 
 // Overlay
 
-$color-main: #F5B940;
+$color-main: #ffb700;
 $color-active: #000;
 $color-link: #000;
 
