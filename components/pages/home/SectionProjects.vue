@@ -10,7 +10,7 @@
   <no-ssr>
     <div v-masonry transition-duration=".5s" item-selector=".item" class="masonry-container">
 
-      <div v-masonry-tile v-for="project in projects" class="item square">
+      <div v-masonry-tile v-for="project in projects" class="item square aspect-ratio">
       	<a :href="`${project.pageUrl}`" class="pointer grow--bg link hide-child cover bg-center aspect-ratio--object">
       		<figure class="ma0">
       			<img class="w-100" :src="`${project.imageUrl}`" alt="Yo">
@@ -34,10 +34,10 @@
 <script>
 import NoSSR from 'vue-no-ssr'
 import ShineMoments from '~/assets/project-shinemoment.jpg'
-import DigitalLife from '~/assets/project-digitallife.jpg'
-import ConversionFunnel from '~/assets/project-cf.jpg'
-import MovementBank from '~/assets/project-movementbank.jpg'
-import MYM from '~/assets/project-mym.jpg'
+import DigitalLife from '~/assets/digitallife.jpg'
+import ConversionFunnel from '~/assets/conversion-funnel.jpg'
+import MovementBank from '~/assets/movementbank.jpg'
+import MYM from '~/assets/mym.jpg'
 
 export default {
   name: 'section-projects',
@@ -88,21 +88,7 @@ export default {
 }
 </script>
 
-<style lang="css" scoped>
-
-.item img {
-
-  width: 400px;
-
-  -moz-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-.item:hover img {
-  -moz-transform: scale(1.1);
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
+<style lang="scss" scoped>
 
 .underlined-tw:before {
     content: "";
@@ -114,33 +100,49 @@ export default {
 }
 
 
+// Masonry container
+
+.masonry-container {
+  width: 1125px;
+  margin: 0 auto;
+}
+
 .item.square {
   background-color: #fff;
-  width: 275px;
+  width: 375px;
   height: 275px;
   overflow: hidden;
 }
 
-.item.feature {
-  height: 550px;
-  width: 325px;
+.item img {
+  width: 500px;
+  display: block;
+  vertical-align: middle;
+  margin: auto;
+
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
-.masonry-container {
-  width: 825px;
-  margin: 0 auto;
+.item:hover img {
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
-@media (max-width: 825px) {
+// Responsive styles for masonry container
+
+@media (max-width: 1125px) {
   .masonry-container {
-    width: 550px;
+    width: 750px;
     margin: 0 auto;
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 750px) {
   .masonry-container {
-    width: 275px;
+    width: 375px;
     margin: 0 auto;
   }
 }

@@ -15,7 +15,7 @@
         class="fl w-50 w-third-m w-25-ns">
           <div class="aspect-ratio aspect-ratio--7x5">
 
-              <a :href="`projects/${project.uid}`" style="background-image: url(http://mrmrs.github.io/images/0006.jpg)" class="db link hide-child cover bg-center aspect-ratio--object">
+              <a :href="`projects/${project.uid}`" :style="{ 'background-image': 'url(' + project.data.feature_image_sm.url + ')' }" class="db link hide-child cover bg-center aspect-ratio--object">
                 <h2 v-for="title in project.data.project_name" class="tc white child bg-black-60 flex justify-center items-center aspect-ratio--object">
                   {{title.text}}
                 </h2>
