@@ -15,11 +15,11 @@
 
           <div class="w-50-ns w-100 w-100-m flex row justify-around">
             <ul class="pl0">
-              <li class="list pl0 pb3 f4 fw6" v-for="tool of tools.frontend">{{tool}}</li>
+              <li class="list pl0 pb3 f6 f4-ns fw6" v-for="tool of tools.frontend">{{tool}}</li>
             </ul>
 
             <ul class="pl0">
-              <li class="list pl0 pb3 f4 fw6" v-for="tool of tools.backend">{{tool}}</li>
+              <li class="list pl0 pb3 f6 f4-ns fw6" v-for="tool of tools.backend">{{tool}}</li>
             </ul>
           </div>
 
@@ -47,7 +47,7 @@ export default {
         frontend: [
           'HTML5',
           'Javascript (ES6)',
-          'Adobe Creative Suite',
+          'Adobe CC',
           'SASS/SCSS',
           'Node.js',
           'Vue',

@@ -35,7 +35,7 @@
 import NoSSR from 'vue-no-ssr'
 import ShineMoments from '~/assets/project-shinemoment.jpg'
 import DigitalLife from '~/assets/digitallife.jpg'
-import ConversionFunnel from '~/assets/conversion-funnel.jpg'
+import ConversionFunnel from '~/assets/mm-cf.jpg'
 import MovementBank from '~/assets/movementbank.jpg'
 import MYM from '~/assets/mym.jpg'
 import Tutor from '~/assets/tutor.jpg'
@@ -161,7 +161,7 @@ export default {
   }
 
   .item {
-    width: 400px !important;
+    width: 100% !important;
     height: 200px !important;
   }
 }
