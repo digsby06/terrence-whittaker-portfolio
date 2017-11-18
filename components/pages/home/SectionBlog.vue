@@ -2,7 +2,7 @@
 <section class="section-blog pa4 pa5-ns mw9 center">
 
   <div class="section-headline">
-    <h1 class="f2 f1-m lh-title mt0">
+    <h1 class="avenir f2 f1-ns fw7 lh-title mt0">
       Featured Posts
       <span class="underlined-tw"></span>
     </h1>

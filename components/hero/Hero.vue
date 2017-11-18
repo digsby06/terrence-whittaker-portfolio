@@ -8,9 +8,9 @@
     <img :src="`${bgImageMobile}`">
   </div>
 
-  <div class="hero bb bw4">
-    <h1 class="f4 f1-ns fw7 mb2 mt4 mt0-ns avenir">Terrence Whittaker Jr.</h1>
-    <h2 class="f5 f3-l fw3 mb3 lh-title avenir">Front-End Developer & Creative</h2>
+  <div class="hero bb-ns bw4-ns">
+    <h1 class="f4 f1-ns fw7 mb2 mt0 avenir tc tl-ns">Terrence Whittaker Jr.</h1>
+    <h2 class="f5 f3-l fw3 mb3 lh-title avenir tc tl-ns">Front-End Developer & Creative</h2>
   </div>
 </home>
 </template>
@@ -62,6 +62,7 @@ export default {
   }
 
   .hero {
+    top: 40% !important;
     width: 80%;
   }
 

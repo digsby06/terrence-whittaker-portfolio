@@ -7,7 +7,7 @@
         <h1 class="f3 f2-ns fw1 georgia i tr">- {{artist}}</h1>
       </div>
 
-      <h1 class="f1 f1-m lh-title">
+      <h1 class="f2 f1-ns lh-title">
         {{page}}
         <span class="underlined-tw"></span>
       </h1>

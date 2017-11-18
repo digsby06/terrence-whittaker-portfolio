@@ -2,7 +2,7 @@
     <section class="section-tools pa4 pa5-ns center tools--bg">
 
       <div class="section-headline pa4 pa5-ns mw9 tc center">
-        <h1 class="f2 f1-m lh-title mt0 mb0 mb3-ns">
+        <h1 class="avenir f2 f1-ns lh-title mt0 mb0 mb3-ns">
           Tools
         </h1>
       </div>

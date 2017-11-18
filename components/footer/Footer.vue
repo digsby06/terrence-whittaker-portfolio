@@ -8,7 +8,7 @@
       <p class="f6">
         <span class="dib mr4 mr5-ns"><a class="f6 db fw6 pv3 link dim black-70" href="mailto:terr.whittakerjr@gmail.com">terr.whittakerjr@gmail.com</a></span>
         <span class="dib mr4 mr5-ns"><a class="f6 db fw6 pv3 link dim black-70" href="tel:216-224-5579">(216) 224.5579</a></span>
-        <span class="dib mr4 mr5-ns">Developer Resume</span>
+        <span class="dib mr4 mr5-ns"><a class="f6 db fw6 pv3 link dim black-70" href="/terrence_resume.pdf">Developer Resume</a></span>
       </p>
     </div>
 

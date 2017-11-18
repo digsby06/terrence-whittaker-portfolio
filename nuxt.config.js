@@ -7,10 +7,10 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Terrence Whittaker Jr. Portfolio' }
+      { hid: 'description', name: 'description', content: 'Terrence Whittaker Jr. Charlotte Front-End Developer' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/tlogo.png' }
     ]
   },
   css: [

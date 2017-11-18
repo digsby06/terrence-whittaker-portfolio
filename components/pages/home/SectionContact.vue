@@ -1,5 +1,5 @@
 <template lang="html">
-  <section class="section-contact pa4 center bg-black">
+  <section class="avenir section-contact pa4 center bg-black">
 
     <div class="section-headline pa4 pa5-ns mw9 tc center">
       <h1 class="f3 f2-ns lh-title mt0 mb0 white">

@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <nav class="pa3 ph5-ns flex row items-center justify-between">
+    <nav class="pa4 ph5-ns flex row items-center justify-between">
 
       <div class="nav-logo">
         <a href="/" class="dib w3 h3 pa1 grow-large">
@@ -35,15 +35,15 @@
     <div :class="[!showMenu ? 'overlay' : 'overlay open']" id="overlay">
       <nav class="overlay-menu">
         <ul>
-          <li><nuxt-link to="/">Home</nuxt-link></li>
+          <li><nuxt-link class="avenir f3" to="/">Home</nuxt-link></li>
 
-          <li><nuxt-link to="/bio">About Me</nuxt-link></li>
+          <li><nuxt-link class="avenir f3" to="/bio">About Me</nuxt-link></li>
 
-          <li><nuxt-link to="/projects">Projects</nuxt-link></li>
+          <li><nuxt-link class="avenir f3" to="/projects">Projects</nuxt-link></li>
 
-          <li><nuxt-link to="/blog">Blog</nuxt-link></li>
+          <li><nuxt-link class="avenir f3" to="/blog">Blog</nuxt-link></li>
 
-          <li><nuxt-link to="/contact">Contact</nuxt-link></li>
+          <li><nuxt-link class="avenir f3" to="/contact">Contact</nuxt-link></li>
         </ul>
       </nav>
     </div>
@@ -97,9 +97,9 @@ export default {
     outline: none;
 }
 
-$bar-width: 30px;
+$bar-width: 25px;
 $bar-height: 4px;
-$bar-spacing: 10px;
+$bar-spacing: 8px;
 
 // Hamburger
 .hamburger-menu {
