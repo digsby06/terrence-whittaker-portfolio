@@ -1,5 +1,5 @@
-const Prismic = require('prismic-javascript')
-const apiEndpoint = 'https://terrencewhittaker.prismic.io/api/v2'
+// const Prismic = require('prismic-javascript')
+// const apiEndpoint = 'https://terrencewhittaker.prismic.io/api/v2'
 
 module.exports = {
   /*
@@ -54,19 +54,15 @@ module.exports = {
     }
   },
   generate: {
-    routes: function () {
-      return Promise.all([
-        Prismic.getApi(apiEndpoint, { req: '' })
-          .then(api => api.query(
-            Prismic.Predicates.at('document.type', 'project')
-          ))
-          .then(response => response.results)
-          .then((data) => {
-              return data.map((project) => {
-                  return '/projects/' + project.uid
-              })
-          })
-      ])
-    }
+    routes: [
+        '/projects/shine-moments-att',
+        '/projects/digital-life-att',
+        '/projects/movement-mortgage-lead-forms',
+        '/projects/tutor2you',
+        '/projects/movement-bank',
+        '/projects/master-your-money',
+        '/projects/mm-househunter',
+        '/blog/how-i-learned-to-breathe-before-i-code'
+    ]
   }
 }
