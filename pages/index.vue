@@ -8,6 +8,7 @@
       <section-blog/>
       <section-contact/>
       <custom-footer/>
+      <tools/>
   </div>
 </template>
 
@@ -21,6 +22,7 @@ import SectionBlog from '~/components/pages/home/SectionBlog'
 import SectionInterests from '~/components/pages/home/SectionInterests'
 import SectionContact from '~/components/pages/home/SectionContact'
 import Footer from '~/components/footer/Footer'
+import Tools from '~/components/tools/Tools'
 
 export default {
   components: {
@@ -32,7 +34,8 @@ export default {
     SectionProjects,
     SectionBlog,
     SectionInterests,
-    SectionContact
+    SectionContact,
+    Tools
   }
 }
 </script>

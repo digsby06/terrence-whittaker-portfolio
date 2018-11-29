@@ -16,6 +16,7 @@
       </article>
 
       <custom-footer/>
+      <tools/>
     </div>
 </template>
 
@@ -23,6 +24,7 @@
 import {mapState} from 'vuex'
 import Footer from '~/components/footer/Footer'
 import BlogHeader from '~/components/blog-header/BlogHeader'
+import Tools from '~/components/tools/Tools'
 
 export default {
   async created () {
@@ -38,7 +40,8 @@ export default {
   transition: 'fadeOpacity',
   components: {
     'custom-footer': Footer,
-    'blog-header': BlogHeader
+    'blog-header': BlogHeader,
+    Tools
   },
   data () {
     return {

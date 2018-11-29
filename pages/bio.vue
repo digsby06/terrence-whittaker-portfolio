@@ -30,17 +30,20 @@
       </article>
 
       <custom-footer/>
+      <tools/>
     </div>
 </template>
 
 <script>
 import PageHeader from '~/components/page-header/PageHeader'
 import Footer from '~/components/footer/Footer'
+import Tools from '~/components/tools/Tools'
 
 export default {
   components: {
     PageHeader,
-    'custom-footer': Footer
+    'custom-footer': Footer,
+    Tools
   },
   data () {
     return {
