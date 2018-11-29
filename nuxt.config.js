@@ -1,3 +1,6 @@
+const Prismic = require('prismic-javascript')
+const apiEndpoint = 'https://terrencewhittaker.prismic.io/api/v2'
+
 module.exports = {
   /*
   ** Headers of the page
@@ -31,6 +34,7 @@ module.exports = {
   */
   // plugins: [{ src: '~/plugins/localStorage.js', ssr: false }],
   /*
+
   ** Build configuration
   */
   build: {
@@ -47,6 +51,22 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    }
+  },
+  generate: {
+    routes: function () {
+      return Promise.all([
+        Prismic.getApi(apiEndpoint, { req: '' })
+          .then(api => api.query(
+            Prismic.Predicates.at('document.type', 'project')
+          ))
+          .then(response => response.results)
+          .then((data) => {
+              return data.map((project) => {
+                  return '/projects/' + project.uid
+              })
+          })
+      ])
     }
   }
 }
