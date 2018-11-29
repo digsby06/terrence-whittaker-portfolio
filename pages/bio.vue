@@ -20,7 +20,7 @@
 
           <p class="lh-copy pb3">So, I did.</p>
 
-          <p class="lh-copy pb3">After finishing TTS’ 12-week code immersion program, I was hooked. I learned the basics of front-end development and gained experience building with Ruby on Rails. I later went back to finish a 10-week javascript application development course. Using the skills I learned in those classes, I’ve completed several freelance projects. I was hired on as a software engineer for a startup. And today, I work as a junior developer for Movement Mortgage.</p>
+          <p class="lh-copy pb3">After finishing TTS’ 12-week code immersion program, I was hooked. I learned the basics of front-end development and gained experience building with Ruby on Rails. I later went back to finish a 10-week javascript application development course. Using the skills I learned in those classes, I’ve completed several freelance projects. I was hired on as a software engineer for a startup. And today, I work as a Frontend Developer at Union, a digital marketing agency in Charlotte.</p>
 
           <p class="lh-copy pb3">I love coding but life’s about balance. When I’m not attached to a Mac, music and movies are life. I’m reading about cryptocurrency/blockchain development. I love cooking pasta. And, most importantly, I’m learning how to be a father to a beautiful little girl.</p>
 
