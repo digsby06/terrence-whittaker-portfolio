@@ -4,7 +4,7 @@
     <!-- Tools -->
 
     <div class="tc">
-        <p class="f5 white">🔥 Built with Nuxt, Vue, and Prismic 🔥</p>
+        <a class="f5 white link hover-gray no-underline" href="https://github.com/digsby06/terrence-whittaker-portfolio" target="_blank" rel="noreferrer">🔥 Built with Nuxt, Vue, and Prismic 🔥</a>
     </div>
 
   </section>
