@@ -62,6 +62,7 @@ module.exports = {
         '/projects/movement-bank',
         '/projects/master-your-money',
         '/projects/mm-househunter',
+        '/projects/goat-talk',
         '/blog/how-i-learned-to-breathe-before-i-code'
     ]
   }
